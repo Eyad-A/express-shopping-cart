@@ -1,5 +1,3 @@
-const { stat } = require("node:fs");
-
 class ExpressError extends Error {
     constructor(message, status) {
         super();
